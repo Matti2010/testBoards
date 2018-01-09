@@ -1,0 +1,330 @@
+2018-01-03 11:48:05,962 - root - INFO - Calling function: get_params
+2018-01-03 11:48:05,963 - root - DEBUG - {'ssh_client_path': './sshclient.cfg', 'email': 'ammt1@me.com', 'timeout': 4, 'port': '2000'}
+2018-01-03 11:48:05,963 - root - INFO - Calling function: get_hosts
+2018-01-03 11:48:05,964 - root - DEBUG - ['10.60.45.200', '10.57.45.130', '10.57.45.131', '10.57.45.132']
+2018-01-03 11:48:05,969 - root - DEBUG - Sending to:10.60.45.200:2000
+2018-01-03 11:48:09,972 - root - ERROR - Error Code :<class 'socket.error'>timed out
+2018-01-03 11:48:09,972 - root - DEBUG - Sending alert ...
+2018-01-03 11:48:10,031 - root - DEBUG - Mail Delivery Status Report will be mailed to <maamsale>.
+
+2018-01-03 11:48:10,032 - root - DEBUG - Sending to:10.57.45.130:2000
+2018-01-03 11:48:10,172 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 11:48:10,173 - root - DEBUG - Sending to:10.57.45.131:2000
+2018-01-03 11:48:10,314 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 11:48:10,314 - root - DEBUG - Sending to:10.57.45.132:2000
+2018-01-03 11:48:10,453 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 11:48:27,819 - root - INFO - Calling function: get_params
+2018-01-03 11:48:27,819 - root - DEBUG - {'ssh_client_path': './sshclient.cfg', 'email': 'ammt1@me.com', 'timeout': 4, 'port': '2000'}
+2018-01-03 11:48:27,820 - root - INFO - Calling function: get_hosts
+2018-01-03 11:48:27,820 - root - DEBUG - ['10.60.45.200', '10.57.45.130', '10.57.45.131', '10.57.45.132']
+2018-01-03 11:48:27,821 - root - DEBUG - Sending to:10.60.45.200:2000
+2018-01-03 11:48:31,825 - root - ERROR - Error Code :<class 'socket.error'>timed out
+2018-01-03 11:48:31,826 - root - DEBUG - Sending alert ...
+2018-01-03 11:48:31,891 - root - DEBUG - Mail Delivery Status Report will be mailed to <maamsale>.
+
+2018-01-03 11:48:31,892 - root - DEBUG - Sending to:10.57.45.130:2000
+2018-01-03 11:48:32,049 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 11:48:32,049 - root - DEBUG - Sending to:10.57.45.131:2000
+2018-01-03 11:48:32,195 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 11:48:32,195 - root - DEBUG - Sending to:10.57.45.132:2000
+2018-01-03 11:48:32,337 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 11:50:46,123 - root - INFO - Calling function: get_params
+2018-01-03 11:50:46,123 - root - INFO - Configurations:
+2018-01-03 11:50:46,123 - root - INFO - ===============
+2018-01-03 11:50:46,124 - root - DEBUG - {'ssh_client_path': './sshclient.cfg', 'email': 'ammt1@me.com', 'timeout': 4, 'port': '2000'}
+2018-01-03 11:50:46,124 - root - INFO - Calling function: get_hosts
+2018-01-03 11:50:46,124 - root - DEBUG - ['10.60.45.200', '10.57.45.130', '10.57.45.131', '10.57.45.132']
+2018-01-03 11:50:46,125 - root - DEBUG - Sending to:10.60.45.200:2000
+2018-01-03 11:50:50,129 - root - ERROR - Error Code :<class 'socket.error'>timed out
+2018-01-03 11:50:50,129 - root - DEBUG - Sending alert ...
+2018-01-03 11:50:50,201 - root - DEBUG - Mail Delivery Status Report will be mailed to <maamsale>.
+
+2018-01-03 11:50:50,201 - root - DEBUG - Sending to:10.57.45.130:2000
+2018-01-03 11:50:50,343 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 11:50:50,343 - root - DEBUG - Sending to:10.57.45.131:2000
+2018-01-03 11:50:50,486 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 11:50:50,487 - root - DEBUG - Sending to:10.57.45.132:2000
+2018-01-03 11:50:50,632 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 11:51:43,513 - root - INFO - Calling function: get_params
+2018-01-03 11:51:43,513 - root - INFO - Configurations:
+2018-01-03 11:51:43,513 - root - INFO - ===============
+2018-01-03 11:51:43,513 - root - INFO - ssh_client_path=./sshclient.cfg
+2018-01-03 11:51:43,514 - root - INFO - email=ammt1@me.com
+2018-01-03 11:51:43,514 - root - INFO - timeout=4
+2018-01-03 11:51:43,514 - root - INFO - port=2000
+2018-01-03 11:51:43,514 - root - DEBUG - {'ssh_client_path': './sshclient.cfg', 'email': 'ammt1@me.com', 'timeout': 4, 'port': '2000'}
+2018-01-03 11:51:43,514 - root - INFO - Calling function: get_hosts
+2018-01-03 11:51:43,514 - root - DEBUG - ['10.60.45.200', '10.57.45.130', '10.57.45.131', '10.57.45.132']
+2018-01-03 11:51:43,516 - root - DEBUG - Sending to:10.60.45.200:2000
+2018-01-03 11:51:47,517 - root - ERROR - Error Code :<class 'socket.error'>timed out
+2018-01-03 11:51:47,517 - root - DEBUG - Sending alert ...
+2018-01-03 11:51:47,581 - root - DEBUG - Mail Delivery Status Report will be mailed to <maamsale>.
+
+2018-01-03 11:51:47,582 - root - DEBUG - Sending to:10.57.45.130:2000
+2018-01-03 11:51:47,730 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 11:51:47,730 - root - DEBUG - Sending to:10.57.45.131:2000
+2018-01-03 11:51:47,871 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 11:51:47,871 - root - DEBUG - Sending to:10.57.45.132:2000
+2018-01-03 11:51:48,014 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 12:50:43,773 - root - INFO - Calling function: get_params
+2018-01-03 12:50:43,774 - root - INFO - Configurations:
+2018-01-03 12:50:43,774 - root - INFO - ===============
+2018-01-03 12:50:43,774 - root - INFO - ssh_client_path=./sshclient.cfg
+2018-01-03 12:50:43,778 - root - INFO - email=ammt1@me.com
+2018-01-03 12:50:43,778 - root - INFO - timeout=4
+2018-01-03 12:50:43,778 - root - INFO - port=2000
+2018-01-03 12:50:43,778 - root - DEBUG - {'ssh_client_path': './sshclient.cfg', 'email': 'ammt1@me.com', 'timeout': 4, 'port': '2000'}
+2018-01-03 12:50:43,778 - root - INFO - Calling function: get_hosts
+2018-01-03 12:50:43,779 - root - DEBUG - ['10.60.45.200', '10.57.45.130', '10.57.45.131', '10.57.45.132']
+2018-01-03 12:50:43,782 - root - DEBUG - Sending to:10.60.45.200:2000
+2018-01-03 12:50:47,787 - root - ERROR - Error Code :<class 'socket.error'>timed out
+2018-01-03 12:50:47,787 - root - DEBUG - Sending alert ...
+2018-01-03 12:50:47,870 - root - DEBUG - Mail Delivery Status Report will be mailed to <maamsale>.
+
+2018-01-03 12:50:47,870 - root - DEBUG - Sending to:10.57.45.130:2000
+2018-01-03 12:50:48,012 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 12:50:48,012 - root - DEBUG - Sending to:10.57.45.131:2000
+2018-01-03 12:50:48,152 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 12:50:48,152 - root - DEBUG - Sending to:10.57.45.132:2000
+2018-01-03 12:50:48,291 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 12:53:24,334 - root - INFO - Calling function: get_params
+2018-01-03 12:53:24,335 - root - INFO - Configurations:
+2018-01-03 12:53:24,335 - root - INFO - ===============
+2018-01-03 12:53:24,335 - root - INFO - ssh_client_path=./sshclient.cfg
+2018-01-03 12:53:24,335 - root - INFO - email=ammt1@me.com
+2018-01-03 12:53:24,335 - root - INFO - timeout=4
+2018-01-03 12:53:24,335 - root - INFO - port=2000
+2018-01-03 12:53:24,335 - root - DEBUG - {'ssh_client_path': './sshclient.cfg', 'email': 'ammt1@me.com', 'timeout': 4, 'port': '2000'}
+2018-01-03 12:53:24,335 - root - INFO - Calling function: get_hosts
+2018-01-03 12:53:24,336 - root - DEBUG - ['10.60.45.200', '10.57.45.130', '10.57.45.131', '10.57.45.132']
+2018-01-03 12:53:24,337 - root - DEBUG - Sending to:10.60.45.200:2000
+2018-01-03 12:53:28,341 - root - ERROR - Error Code :<class 'socket.error'>timed out
+2018-01-03 12:53:28,341 - root - DEBUG - Sending alert ...
+2018-01-03 12:53:28,402 - root - DEBUG - Mail Delivery Status Report will be mailed to <maamsale>.
+
+2018-01-03 12:53:28,403 - root - DEBUG - Sending to:10.57.45.130:2000
+2018-01-03 12:53:28,544 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 12:53:28,544 - root - DEBUG - Sending to:10.57.45.131:2000
+2018-01-03 12:53:28,684 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 12:53:28,684 - root - DEBUG - Sending to:10.57.45.132:2000
+2018-01-03 12:53:28,824 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 13:20:05,418 - root - INFO - Calling function: get_params
+2018-01-03 13:20:05,419 - root - INFO - Configurations:
+2018-01-03 13:20:05,419 - root - INFO - ===============
+2018-01-03 13:20:05,419 - root - INFO - ssh_client_path=./sshclient.cfg
+2018-01-03 13:20:05,419 - root - INFO - email=ammt1@me.com
+2018-01-03 13:20:05,419 - root - INFO - timeout=4
+2018-01-03 13:20:05,419 - root - INFO - port=2000
+2018-01-03 13:20:05,419 - root - DEBUG - {'ssh_client_path': './sshclient.cfg', 'email': 'ammt1@me.com', 'timeout': 4, 'port': '2000'}
+2018-01-03 13:20:05,419 - root - INFO - Calling function: get_hosts
+2018-01-03 13:20:05,420 - root - DEBUG - ['10.60.45.200', '10.57.45.130', '10.57.45.131', '10.57.45.132']
+2018-01-03 13:20:05,423 - root - DEBUG - Sending to:10.60.45.200:2000
+2018-01-03 13:20:09,429 - root - ERROR - Error Code :<class 'socket.error'>timed out
+2018-01-03 13:20:09,430 - root - DEBUG - Sending alert ...
+2018-01-03 13:20:09,515 - root - DEBUG - Mail Delivery Status Report will be mailed to <maamsale>.
+
+2018-01-03 13:20:09,516 - root - DEBUG - Sending to:10.57.45.130:2000
+2018-01-03 13:20:09,656 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 13:20:09,657 - root - DEBUG - Sending to:10.57.45.131:2000
+2018-01-03 13:20:09,797 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 13:20:09,797 - root - DEBUG - Sending to:10.57.45.132:2000
+2018-01-03 13:20:09,936 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 13:49:13,598 - root - INFO - Calling function: get_params
+2018-01-03 13:49:13,599 - root - INFO - Configurations:
+2018-01-03 13:49:13,599 - root - INFO - ===============
+2018-01-03 13:49:13,599 - root - INFO - ssh_client_path=./sshclient.cfg
+2018-01-03 13:49:13,599 - root - INFO - email=ammt1@me.com
+2018-01-03 13:49:13,599 - root - INFO - timeout=4
+2018-01-03 13:49:13,599 - root - INFO - port=2000
+2018-01-03 13:49:13,600 - root - DEBUG - {'ssh_client_path': './sshclient.cfg', 'email': 'ammt1@me.com', 'timeout': 4, 'port': '2000'}
+2018-01-03 13:49:13,600 - root - INFO - Calling function: get_hosts
+2018-01-03 13:49:13,600 - root - DEBUG - ['10.60.45.200', '10.57.45.130', '10.57.45.131', '10.57.45.132']
+2018-01-03 13:49:13,603 - root - DEBUG - Sending to:10.60.45.200:2000
+2018-01-03 13:51:23,790 - root - INFO - Calling function: get_params
+2018-01-03 13:51:23,791 - root - INFO - Configurations:
+2018-01-03 13:51:23,791 - root - INFO - ===============
+2018-01-03 13:51:23,791 - root - INFO - ssh_client_path=./sshclient.cfg
+2018-01-03 13:51:23,791 - root - INFO - email=ammt1@me.com
+2018-01-03 13:51:23,791 - root - INFO - timeout=4
+2018-01-03 13:51:23,791 - root - INFO - port=2000
+2018-01-03 13:51:23,792 - root - DEBUG - {'ssh_client_path': './sshclient.cfg', 'email': 'ammt1@me.com', 'timeout': 4, 'port': '2000'}
+2018-01-03 13:51:23,792 - root - INFO - Calling function: get_hosts
+2018-01-03 13:51:23,792 - root - DEBUG - ['10.60.45.200', '10.57.45.130', '10.57.45.131', '10.57.45.132']
+2018-01-03 13:51:23,794 - root - DEBUG - Sending to:10.60.45.200:2000
+2018-01-03 13:51:27,795 - root - ERROR - Error Code :<class 'socket.error'>timed out
+2018-01-03 13:51:27,795 - root - DEBUG - Sending alert ...
+2018-01-03 13:51:27,885 - root - DEBUG - Mail Delivery Status Report will be mailed to <maamsale>.
+
+2018-01-03 13:51:27,886 - root - DEBUG - Sending to:10.57.45.130:2000
+2018-01-03 13:51:28,031 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 13:51:28,031 - root - DEBUG - Sending to:10.57.45.131:2000
+2018-01-03 13:51:28,175 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 13:51:28,176 - root - DEBUG - Sending to:10.57.45.132:2000
+2018-01-03 13:51:28,316 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 13:52:17,882 - root - INFO - Calling function: get_params
+2018-01-03 13:52:17,883 - root - INFO - Configurations:
+2018-01-03 13:52:17,883 - root - INFO - ===============
+2018-01-03 13:52:17,883 - root - INFO - ssh_client_path=./sshclient.cfg
+2018-01-03 13:52:17,883 - root - INFO - email=ammt1@me.com
+2018-01-03 13:52:17,883 - root - INFO - timeout=4
+2018-01-03 13:52:17,883 - root - INFO - port=2000
+2018-01-03 13:52:17,884 - root - DEBUG - {'ssh_client_path': './sshclient.cfg', 'email': 'ammt1@me.com', 'timeout': 4, 'port': '2000'}
+2018-01-03 13:52:17,884 - root - INFO - Calling function: get_hosts
+2018-01-03 13:52:17,884 - root - DEBUG - ['10.60.45.200', '10.57.45.130', '10.57.45.131', '10.57.45.132']
+2018-01-03 13:52:17,886 - root - DEBUG - Sending to:10.60.45.200:2000
+2018-01-03 13:52:21,892 - root - ERROR - Error Code :<class 'socket.error'>timed out
+2018-01-03 13:52:21,892 - root - DEBUG - Sending alert ...
+2018-01-03 13:52:21,971 - root - DEBUG - Mail Delivery Status Report will be mailed to <maamsale>.
+
+2018-01-03 13:52:21,971 - root - DEBUG - Sending to:10.57.45.130:2000
+2018-01-03 13:52:22,114 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 13:52:22,114 - root - DEBUG - Sending to:10.57.45.131:2000
+2018-01-03 13:52:22,257 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 13:52:22,257 - root - DEBUG - Sending to:10.57.45.132:2000
+2018-01-03 13:52:22,401 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 13:54:00,308 - root - INFO - Calling function: get_params
+2018-01-03 13:54:00,309 - root - INFO - Configurations:
+2018-01-03 13:54:00,309 - root - INFO - ===============
+2018-01-03 13:54:00,309 - root - INFO - ssh_client_path=./sshclient.cfg
+2018-01-03 13:54:00,309 - root - INFO - email=ammt1@me.com
+2018-01-03 13:54:00,309 - root - INFO - timeout=4
+2018-01-03 13:54:00,309 - root - INFO - port=2000
+2018-01-03 13:54:00,309 - root - DEBUG - {'ssh_client_path': './sshclient.cfg', 'email': 'ammt1@me.com', 'timeout': 4, 'port': '2000'}
+2018-01-03 13:54:00,309 - root - INFO - Calling function: get_hosts
+2018-01-03 13:54:00,310 - root - DEBUG - ['10.60.45.200', '10.57.45.130', '10.57.45.131', '10.57.45.132']
+2018-01-03 13:54:00,312 - root - DEBUG - Sending to:10.60.45.200:2000
+2018-01-03 13:54:04,314 - root - ERROR - Error Code :<class 'socket.error'>timed out
+2018-01-03 13:54:04,315 - root - DEBUG - Sending alert ...
+2018-01-03 13:54:04,385 - root - DEBUG - Mail Delivery Status Report will be mailed to <maamsale>.
+
+2018-01-03 13:54:04,385 - root - DEBUG - Sending to:10.57.45.130:2000
+2018-01-03 13:54:04,528 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 13:54:04,528 - root - DEBUG - Sending to:10.57.45.131:2000
+2018-01-03 13:54:04,673 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 13:54:04,673 - root - DEBUG - Sending to:10.57.45.132:2000
+2018-01-03 13:54:04,815 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 13:55:20,503 - root - INFO - Calling function: get_params
+2018-01-03 13:55:20,504 - root - INFO - Configurations:
+2018-01-03 13:55:20,504 - root - INFO - ===============
+2018-01-03 13:55:20,504 - root - INFO - ssh_client_path=./sshclient.cfg
+2018-01-03 13:55:20,504 - root - INFO - email=ammt1@me.com
+2018-01-03 13:55:20,504 - root - INFO - timeout=4
+2018-01-03 13:55:20,504 - root - INFO - port=2000
+2018-01-03 13:55:20,504 - root - DEBUG - {'ssh_client_path': './sshclient.cfg', 'email': 'ammt1@me.com', 'timeout': 4, 'port': '2000'}
+2018-01-03 13:55:20,504 - root - INFO - Calling function: get_hosts
+2018-01-03 13:55:20,505 - root - DEBUG - ['10.60.45.200', '10.57.45.130', '10.57.45.131', '10.57.45.132']
+2018-01-03 13:55:20,507 - root - DEBUG - Sending to:10.60.45.200:2000
+2018-01-03 13:55:24,512 - root - ERROR - Error Code :<class 'socket.error'>timed out
+2018-01-03 13:55:24,512 - root - DEBUG - Sending alert ...
+2018-01-03 13:55:24,592 - root - DEBUG - Mail Delivery Status Report will be mailed to <maamsale>.
+
+2018-01-03 13:55:24,593 - root - DEBUG - Sending to:10.57.45.130:2000
+2018-01-03 13:55:24,736 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 13:55:24,736 - root - DEBUG - Sending to:10.57.45.131:2000
+2018-01-03 13:55:24,879 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 13:55:24,879 - root - DEBUG - Sending to:10.57.45.132:2000
+2018-01-03 13:55:25,027 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 14:03:10,729 - root - INFO - Calling function: get_params
+2018-01-03 14:03:10,730 - root - INFO - Configurations:
+2018-01-03 14:03:10,731 - root - INFO - ===============
+2018-01-03 14:03:10,731 - root - INFO - ssh_client_path=./sshclient.cfg
+2018-01-03 14:03:10,731 - root - INFO - email=ammt1@me.com
+2018-01-03 14:03:10,731 - root - INFO - timeout=4
+2018-01-03 14:03:10,731 - root - INFO - port=2000
+2018-01-03 14:03:10,731 - root - DEBUG - {'ssh_client_path': './sshclient.cfg', 'email': 'ammt1@me.com', 'timeout': 4, 'port': '2000'}
+2018-01-03 14:03:10,731 - root - INFO - Calling function: get_hosts
+2018-01-03 14:03:10,732 - root - DEBUG - ['10.60.45.200', '10.57.45.130', '10.57.45.131', '10.57.45.132']
+2018-01-03 14:03:10,734 - root - DEBUG - Sending to:10.60.45.200:2000
+2018-01-03 14:26:21,708 - root - INFO - Calling function: get_params
+2018-01-03 14:26:21,708 - root - INFO - Configurations:
+2018-01-03 14:26:21,708 - root - INFO - ===============
+2018-01-03 14:26:21,708 - root - INFO - ssh_client_path=./sshclient.cfg
+2018-01-03 14:26:21,709 - root - INFO - email=ammt1@me.com
+2018-01-03 14:26:21,709 - root - INFO - timeout=4
+2018-01-03 14:26:21,709 - root - INFO - port=2000
+2018-01-03 14:26:21,709 - root - DEBUG - {'ssh_client_path': './sshclient.cfg', 'email': 'ammt1@me.com', 'timeout': 4, 'port': '2000'}
+2018-01-03 14:26:21,709 - root - INFO - Calling function: get_hosts
+2018-01-03 14:26:21,710 - root - DEBUG - ['10.60.45.200', '10.57.45.130', '10.57.45.131', '10.57.45.132']
+2018-01-03 14:26:21,713 - root - DEBUG - Sending to:10.60.45.200:2000
+2018-01-03 14:26:25,717 - root - ERROR - Error Code :<class 'socket.error'>timed out
+2018-01-03 14:26:25,717 - root - DEBUG - Sending alert ...
+2018-01-03 14:26:25,798 - root - DEBUG - Mail Delivery Status Report will be mailed to <maamsale>.
+
+2018-01-03 14:26:25,798 - root - DEBUG - Sending to:10.57.45.130:2000
+2018-01-03 14:26:25,940 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 14:26:25,940 - root - DEBUG - Sending to:10.57.45.131:2000
+2018-01-03 14:26:26,080 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 14:26:26,080 - root - DEBUG - Sending to:10.57.45.132:2000
+2018-01-03 14:26:26,221 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 14:32:55,891 - root - INFO - Calling function: get_params
+2018-01-03 14:32:55,891 - root - INFO - Configurations:
+2018-01-03 14:32:55,891 - root - INFO - ===============
+2018-01-03 14:32:55,891 - root - INFO - ssh_client_path=./sshclient.cfg
+2018-01-03 14:32:55,891 - root - INFO - email=ammt1@me.com
+2018-01-03 14:32:55,891 - root - INFO - timeout=4
+2018-01-03 14:32:55,891 - root - INFO - port=2000
+2018-01-03 14:32:55,892 - root - DEBUG - {'ssh_client_path': './sshclient.cfg', 'email': 'ammt1@me.com', 'timeout': 4, 'port': '2000'}
+2018-01-03 14:32:55,892 - root - INFO - Calling function: get_hosts
+2018-01-03 14:32:55,892 - root - DEBUG - ['10.60.45.200', '10.57.45.130', '10.57.45.131', '10.57.45.132']
+2018-01-03 14:32:55,894 - root - DEBUG - Sending to:10.60.45.200:2000
+2018-01-03 14:32:59,898 - root - ERROR - Error Code :<class 'socket.error'>timed out
+2018-01-03 14:32:59,898 - root - DEBUG - Sending alert ...
+2018-01-03 14:32:59,963 - root - DEBUG - Mail Delivery Status Report will be mailed to <maamsale>.
+
+2018-01-03 14:32:59,963 - root - DEBUG - Sending to:10.57.45.130:2000
+2018-01-03 14:33:00,108 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 14:33:00,108 - root - DEBUG - Sending to:10.57.45.131:2000
+2018-01-03 14:33:00,250 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 14:33:00,251 - root - DEBUG - Sending to:10.57.45.132:2000
+2018-01-03 14:33:00,393 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 14:33:08,096 - root - INFO - Calling function: get_params
+2018-01-03 14:33:08,096 - root - INFO - Configurations:
+2018-01-03 14:33:08,096 - root - INFO - ===============
+2018-01-03 14:33:08,096 - root - INFO - ssh_client_path=./sshclient.cfg
+2018-01-03 14:33:08,096 - root - INFO - email=ammt1@me.com
+2018-01-03 14:33:08,096 - root - INFO - timeout=4
+2018-01-03 14:33:08,096 - root - INFO - port=2000
+2018-01-03 14:33:08,096 - root - DEBUG - {'ssh_client_path': './sshclient.cfg', 'email': 'ammt1@me.com', 'timeout': 4, 'port': '2000'}
+2018-01-03 14:33:08,096 - root - INFO - Calling function: get_hosts
+2018-01-03 14:33:36,971 - root - INFO - Calling function: get_params
+2018-01-03 14:33:36,971 - root - INFO - Configurations:
+2018-01-03 14:33:36,971 - root - INFO - ===============
+2018-01-03 14:33:36,971 - root - INFO - ssh_client_path=./sshclient.cfg
+2018-01-03 14:33:36,971 - root - INFO - email=ammt1@me.com
+2018-01-03 14:33:36,971 - root - INFO - timeout=4
+2018-01-03 14:33:36,971 - root - INFO - port=2000
+2018-01-03 14:33:36,971 - root - DEBUG - {'ssh_client_path': './sshclient.cfg', 'email': 'ammt1@me.com', 'timeout': 4, 'port': '2000'}
+2018-01-03 14:33:36,972 - root - INFO - Calling function: get_hosts
+2018-01-03 14:33:36,972 - root - DEBUG - ['10.60.45.200', '10.57.45.130', '10.57.45.131', '10.57.45.132']
+2018-01-03 14:33:36,973 - root - DEBUG - Sending to:10.60.45.200:2000
+2018-01-03 14:33:40,974 - root - ERROR - Error Code :<class 'socket.error'>timed out
+2018-01-03 14:33:40,974 - root - DEBUG - Sending alert ...
+2018-01-03 14:33:41,037 - root - DEBUG - Mail Delivery Status Report will be mailed to <maamsale>.
+
+2018-01-03 14:33:41,037 - root - DEBUG - Sending to:10.57.45.130:2000
+2018-01-03 14:33:41,180 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 14:33:41,180 - root - DEBUG - Sending to:10.57.45.131:2000
+2018-01-03 14:33:41,331 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 14:33:41,332 - root - DEBUG - Sending to:10.57.45.132:2000
+2018-01-03 14:33:41,475 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 14:33:54,074 - root - INFO - Calling function: get_params
+2018-01-03 14:33:54,075 - root - INFO - Configurations:
+2018-01-03 14:33:54,075 - root - INFO - ===============
+2018-01-03 14:33:54,075 - root - INFO - ssh_client_path=./sshclient.cfg
+2018-01-03 14:33:54,075 - root - INFO - email=ammt1@me.com
+2018-01-03 14:33:54,075 - root - INFO - timeout=4
+2018-01-03 14:33:54,075 - root - INFO - port=2000
+2018-01-03 14:33:54,075 - root - DEBUG - {'ssh_client_path': './sshclient.cfg', 'email': 'ammt1@me.com', 'timeout': 4, 'port': '2000'}
+2018-01-03 14:33:54,075 - root - INFO - Calling function: get_hosts
+2018-01-03 14:33:54,076 - root - DEBUG - ['10.60.45.200', '10.57.45.130', '10.57.45.131', '10.57.45.132']
+2018-01-03 14:33:54,077 - root - DEBUG - Sending to:10.60.45.200:2000
+2018-01-03 14:33:58,082 - root - ERROR - Error Code :<class 'socket.error'>timed out
+2018-01-03 14:33:58,082 - root - DEBUG - Sending alert ...
+2018-01-03 14:33:58,145 - root - DEBUG - Mail Delivery Status Report will be mailed to <maamsale>.
+
+2018-01-03 14:33:58,146 - root - DEBUG - Sending to:10.57.45.130:2000
+2018-01-03 14:33:58,291 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 14:33:58,291 - root - DEBUG - Sending to:10.57.45.131:2000
+2018-01-03 14:33:58,433 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
+2018-01-03 14:33:58,433 - root - DEBUG - Sending to:10.57.45.132:2000
+2018-01-03 14:33:58,574 - root - DEBUG - Server reply: 000e0000000d0000000100020b36
