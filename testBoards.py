@@ -7,8 +7,8 @@ from datetime import datetime
 #import collections
 import subprocess
 
-def sendUdpRequest(h,p):
-    port=int(p)
+def sendUdpRequest(h,params):
+    port=int(params['port'])
     host=h
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -18,7 +18,8 @@ def sendUdpRequest(h,p):
         sys.exit()
 
     #msg = raw_input('Enter message to send : ')
-    msg = "006D0000000D00000001010000005101BB000001003C01004E02B393B197E4B350CB420CAAC664CD56A4C8B98D08B2B490334405105C12102E11E302910E3104C4B40092100001000000000000000000000000000096040002000067080000000000000000E7A2322A3876C3340F"
+    #msg = "006D0000000D00000001010000005101BB000001003C01004E02B393B197E4B350CB420CAAC664CD56A4C8B98D08B2B490334405105C12102E11E302910E3104C4B40092100001000000000000000000000000000096040002000067080000000000000000E7A2322A3876C3340F"
+    msg = params['sendPacket']
     msg = msg.decode('hex')
 
     try:
@@ -43,7 +44,7 @@ def sendUdpRequest(h,p):
         #print 'Sending alert ...'
         logging.debug('Sending alert ...')
         try:
-            cmd = "echo 'Subject: SSH Board ERROR' | sendmail -v " + params['email']
+            cmd = "echo 'Subject: [testBoards.py] SSH Board ERROR please refer to the log files' | sendmail -v " + params['email']
             ps = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
             output = ps.communicate()[0]
             #print output
@@ -92,6 +93,42 @@ def get_hosts(ssh_config_file, c, argu=0):
         finally:
             f.close()
 
+def get_hosts_from_config(config_file, c, argu=0):
+    myfunc = sys._getframe().f_code.co_name
+    logging.info("Calling function: " + myfunc)
+    hosts = []
+    if argu:
+        return [c['host']]
+    else:
+        #with open(ssh_config_file, 'r') as f:
+        f = open(config_file, 'r')
+        try:
+            lines = filter(None, (line.rstrip() for line in f))
+            for line in lines:
+                if 'host' in line:
+                    # results = collections.Counter(line)
+                    # p results
+                    #if results['='] <= 1:
+                    #print 'results count: ', line.count('=')
+                    if line.count('=')<=1:
+                        (key, val) = line.split("=")
+                        key = key.lstrip()
+                        val = val.lstrip()
+                        if 'host' in key:
+                            if key.startswith("host"):
+                                hosts.append(val)
+            if hosts:
+                #print 'hosts:', hosts
+                logging.debug(hosts)
+            else:
+                logging.error("ERROR no host found")
+                #print 'ERROR no host found'
+                sys(exit())
+            return hosts
+        finally:
+            f.close()
+
+
 def get_params(config_file, argu=0):
     myfunc = sys._getframe().f_code.co_name
     logging.info("Calling function: " + myfunc)
@@ -99,6 +136,8 @@ def get_params(config_file, argu=0):
     params = {#'host': '',
               'email': '',
               'timeout': '',
+              'sendPacket': '',
+              'receivePacket': '',
               'port': '',
               'ssh_client_path': '',
               }
@@ -114,9 +153,6 @@ def get_params(config_file, argu=0):
                     (key, val) = line.split("=")
                     if val and params.has_key(key):
                         params[key] = val
-                    if 'email' in key:
-                        if key.startswith("email"):
-                            params['email'] = val
                     if 'timeout' in key:
                         if key.startswith("timeout"):
                             params['timeout'] = int(val)
@@ -149,7 +185,7 @@ logging.basicConfig(filename=datetime.now().strftime('testBoards_%d-%m-%Y.log'),
                             format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.DEBUG)
 config_file = 'testBoards.cfg'
 params = get_params(config_file)
-hosts = get_hosts(params['ssh_client_path'],params)
+#hosts = get_hosts(params['ssh_client_path'],params)
+hosts = get_hosts_from_config(config_file,params)
 for host in hosts:
-    print host
-    sendUdpRequest(host,params['port'])
+    sendUdpRequest(host,params)
